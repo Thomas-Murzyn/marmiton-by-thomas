@@ -1,0 +1,126 @@
+/* Main rules */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+section {
+  background-color: white;
+  padding: 60px 30px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #393c6c;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f3735f;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f3735f;
+  line-height: 22px;
+  padding-bottom: 20px;
+}
+
+h6 {
+  color: #52557f;
+  font-weight: 700;
+}
+
+ul li {
+  line-height: 20px;
+  color: #6c6c6c;
+}
+
+/* HEADER */
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #f3735f;
+}
+
+header img {
+  width: 200px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Main */
+
+.informations {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.temps {
+  background-color: #8a98b1;
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.temps h2 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+}
+
+.images-container {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.images-container img {
+  width: 32%;
+  height: 300px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.ingredient {
+  margin: 50px 0px;
+}
+
+.preparation {
+  margin: 50px 0px;
+}
+
+.preparation p {
+  text-align: left;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+footer span {
+  line-height: 50px;
+}
